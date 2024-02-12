@@ -1,0 +1,73 @@
+header {  
+    background-color: rgb(68, 37, 66);  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 0;  
+    height: 30px;  
+    display: flex;  
+    align-items: center;  
+  
+    }  
+    header * {  
+    display: inline;  
+    }  
+    header li {  
+    margin: 20px;  
+    }  
+    header li a {  
+    color: rgb(245, 245, 249);  
+    text-decoration: none;  
+    }  
+    body{
+        background-color:rgb(54, 53, 53);
+    }
+    #Booktable{
+        background-color: bisque;
+        width: 70%;
+        align-content: center;
+        margin-left: 15%;
+        border-radius: 5px;
+    }
+
+    #xyz {
+        width: 75% auto;
+        margin-bottom: 150px;
+        margin-top: 150px;
+        margin-left: 90px;
+        margin-right: 90px;
+        background-color: beige;
+        padding-left: 30px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        padding-right: 30px;
+        border-radius: 10px;
+    }
+    #bn{
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+    #at{
+        padding-bottom: 30px;
+    }
+    #gen{
+        padding-bottom: 30px;
+    }
+    .input{
+        width: 100%;
+        border-radius: 3px;
+        padding: 5px 5px;
+        border: 4px;
+    }
+    #submit{
+        background-color: rgb(61, 182, 229);
+        border-radius: 3px;
+    }
+    #view{
+        padding-top: 20px;
+    }
+    #tea{
+        background-color: rgb(167, 240, 155);
+    }
+
+    
