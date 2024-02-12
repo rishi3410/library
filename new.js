@@ -96,8 +96,8 @@ function formSubmit(e) {
   let givengenre;
   let checkFiction = document.getElementById("Fiction");
   let checknNonfiction = document.getElementById("Non Fiction");
-  let checkbio = document.getElementById("Crime");
-  let checkautobio = document.getElementById("History");
+  let checkbio = document.getElementById("Biography");
+  let checkautobio = document.getElementById("Autobiography");
   if (checkFiction.checked) {
     givengenre = checkFiction.value;
   } else if (checknNonfiction.checked) {
