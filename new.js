@@ -96,8 +96,8 @@ function formSubmit(e) {
   let givengenre;
   let checkFiction = document.getElementById("Fiction");
   let checknNonfiction = document.getElementById("Non Fiction");
-  let checkbio = document.getElementById("Biography");
-  let checkautobio = document.getElementById("Autobiography");
+  let checkbio = document.getElementById("Crime");
+  let checkautobio = document.getElementById("History");
   if (checkFiction.checked) {
     givengenre = checkFiction.value;
   } else if (checknNonfiction.checked) {
@@ -124,17 +124,17 @@ function formSubmit(e) {
 
     new Display().add(listArray);
     displayObj.clear();
-    displayObj.alertuser("success", "Success", "Book is issued");
+    displayObj.alertuser("success", "Success", "Book is Added");
   } else if (displayObj.checkIssue(listArray, o1) == 0) {
     let issuedUser =
       displayObj.alertuser(
         "danger",
         "Oops!",
-        `Book is already issued by ${displayObj.issuedUser}`
+        `Book is already added`
       );
     displayObj.clear();
   } else {
-    displayObj.alertuser("danger", "Oops!", "Book is not issued");
+    displayObj.alertuser("danger", "Oops!", "Book is already there");
     displayObj.clear();
   }
 } 
